@@ -6,31 +6,45 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background: linear-gradient(135deg, #111111, #0e0e0e);
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-p{
+#titulo{
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
     min-height: 1.2rem;
     font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 17rem;
+    color: whitesmoke;
+}
+
+#titulo-2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.quadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .temporizador{
-    background-color: white;
+    background-color: whitesmoke;
     padding: 2.5rem;
     border-radius: 6px;
-    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.20);
+    box-shadow: 1px 8px 15px rgb(135, 135, 136);
     width: 100%;
     max-width: 400px;
 }
 
+
 input{
+    margin-left: 4.5rem;
     padding: 0.75rem;
     border: 1px solid #d1d5db;
     border-radius: 6px;
