@@ -11,18 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if(tempo <= 0){
                 parartempo(timer);
             }else if(tempo <= (tempoInicial/2)){
-
-                if(tempo <= ((tempoInicial/2)/2)){
-                    cor = "#e03838ff"
-                    console.log(tempo),
-                    mostrarNumero(tempo,cor),
-                    tempo --- 1;
-                }else{
-                    cor = "#d3851fff"
-                    console.log(tempo),
-                    mostrarNumero(tempo,cor),
-                    tempo --- 1;
-                }
+                cor = "#d3851fff"
+                console.log(tempo),
+                mostrarNumero(tempo,cor),
+                tempo --- 1;
             }else{
                 console.log(tempo),
                 cor = "#10b981"
